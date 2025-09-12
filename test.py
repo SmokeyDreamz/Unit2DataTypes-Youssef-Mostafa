@@ -10,14 +10,28 @@ for i in values:
     print(values[0])
 print(values[6]) """
 
-x = "Hello I am an Alien"
+""" def message(input):
+    print(input)
+
+input("Input a sentence")
+
+x = "input()"
 y= x.split( )
 z = y[0]
 print(y)
-print(z)
+print(z) """
 
-day_of_week = input("what day is it? ")
+
+
+""" day_of_week = input("what day is it? ")
 if day_of_week == "Friday":
     print("correct")
 else:
-    print("incorrect")
+    print("incorrect") """
+
+#word counter code
+""" count_words= input("WRITE YOUR SENTECTE TO SEE THE WORD COUNT")
+count_words= count_words.split()
+print(len(count_words))
+ """
+
