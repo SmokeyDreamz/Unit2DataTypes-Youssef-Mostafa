@@ -29,9 +29,35 @@ if day_of_week == "Friday":
 else:
     print("incorrect") """
 
-#word counter code
-""" count_words= input("WRITE YOUR SENTECTE TO SEE THE WORD COUNT")
+#word counter challenge
+""" count_words= input("WRITE YOUR SENTENCE TO SEE THE WORD COUNT")
 count_words= count_words.split()
 print(len(count_words))
  """
 
+
+
+""" x = "Class of 2029"
+print(f"Welcome, {x}") """
+
+""" temp = 75
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+
+#even or odd number challenge
+
+""" even_or_odd = input("WRITE A NUMBER")
+if int(even_or_odd) % 2 ==0:
+    print("YOUR NUMBER IS EVEN")
+else:
+    print("YOUR NUMBER IS ODD") """
+
+#tip calculator challenge
+
+bill = input("WHAT IS THE BILL AMOUNT?")
+service = input("HOW WOULD YOU RATE THE SEVICE? BAD, OKAY, GOOD, OR GREAT?")
