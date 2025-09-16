@@ -59,7 +59,7 @@ else:
 
 #tip calculator challenge
 
-bill = input("WHAT IS THE BILL AMOUNT?")
+""" bill = input("WHAT IS THE BILL AMOUNT?")
 service = input("HOW WOULD YOU RATE THE SEVICE? BAD, OKAY, GOOD, OR GREAT?")
 if service == "BAD":
     print(bill)
@@ -68,4 +68,8 @@ elif service == "OKAY":
 elif service == "GOOD":
     print(float(bill) * 1.20)
 elif service == "GREAT":
-    print(float(bill) * 1.25)
+    print(float(bill) * 1.25) """
+
+#factor caluclator challenge
+
+factors = input("WRITE A NUMBER")
