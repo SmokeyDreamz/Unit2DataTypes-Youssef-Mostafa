@@ -61,3 +61,11 @@ else:
 
 bill = input("WHAT IS THE BILL AMOUNT?")
 service = input("HOW WOULD YOU RATE THE SEVICE? BAD, OKAY, GOOD, OR GREAT?")
+if service == "BAD":
+    print(bill)
+elif service == "OKAY":
+    print(float(bill) * 1.15)
+elif service == "GOOD":
+    print(float(bill) * 1.20)
+elif service == "GREAT":
+    print(float(bill) * 1.25)
