@@ -72,4 +72,17 @@ elif service == "GREAT":
 
 #factor caluclator challenge
 
-factors = input("WRITE A NUMBER")
+factor= 2
+list_of_factors = [1]
+number = input("WRITE THE NUMBER YOU WANT TO FACTOR")
+number = int(number)
+if number > 999999999999:
+    print("WHY ARE YOU TRYING TO CRASH MY PC")
+    quit()
+else:
+    for i in range(number):
+        if (number % factor) ==0:
+         second_factor_list = [factor]
+        list_of_factors.append(second_factor_list)
+    factor = factor + 1
+print(f"THE FACTORS OF {number} ARE {list_of_factors}")
