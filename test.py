@@ -72,17 +72,31 @@ elif service == "GREAT":
 
 #factor caluclator challenge
 
-factor= 2
+""" factor= 2
 list_of_factors = [1]
 number = input("WRITE THE NUMBER YOU WANT TO FACTOR")
 number = int(number)
-if number > 999999999999:
-    print("WHY ARE YOU TRYING TO CRASH MY PC")
-    quit()
-else:
-    for i in range(number):
+
+for i in range(number):
         if (number % factor) ==0:
-         second_factor_list = [factor]
-        list_of_factors.append(second_factor_list)
-    factor = factor + 1
-print(f"THE FACTORS OF {number} ARE {list_of_factors}")
+            second_factor_list = [factor]
+            list_of_factors.append(second_factor_list)
+        factor = factor + 1
+print(f"THE FACTORS OF {number} ARE {list_of_factors}") """
+
+
+#GCF or greatest common factor caluclator challenge
+
+factor = 2
+factor_list = [1]
+first_number = input("WRITE ONE NUMBER")
+second_number = input("WRITE ANOTHER NUMBER")
+first_number = int(first_number)
+second_number = int(second_number)
+
+for i in range(first_number + second_number):
+    if (first_number % factor) ==0 and (second_number % factor) ==0:
+        new_factor_list = [factor]
+        factor_list[0] = (new_factor_list)
+        factor = factor + 1
+        
