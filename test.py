@@ -88,7 +88,7 @@ print(f"THE FACTORS OF {number} ARE {list_of_factors}") """
 #GCF or greatest common factor caluclator challenge
 
 
-#DON"T USE THIS CODE. DOESN"T WORK. Use as reference for new code
+#DON"T USE THIS CODE. DOESN"T WORK. Use as reference for new code or figure out problem
 
 
 """ factor = 2
@@ -105,5 +105,5 @@ for i in range(first_number + second_number):
         factor = factor + 1
 print(f"THE GREATEST COMMON FACTOR OF {first_number} AND {second_number} IS {factor_list}") """
 
-#DON"T USE THIS CODE. DOESN"T WORK. Use as reference for new code
+#DON"T USE THIS CODE. DOESN"T WORK. Use as reference for new code or figure out problem
         
