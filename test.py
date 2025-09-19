@@ -72,7 +72,7 @@ elif service == "GREAT":
 
 #factor caluclator challenge
 
-factor= 2
+""" factor= 2
 list_of_factors = [1]
 number = input("WRITE THE NUMBER YOU WANT TO FACTOR")
 number = int(number)
@@ -82,10 +82,14 @@ for i in range(number):
             second_factor_list = [factor]
             list_of_factors.append(second_factor_list)
         factor = factor + 1
-print(f"THE FACTORS OF {number} ARE {list_of_factors}")
+print(f"THE FACTORS OF {number} ARE {list_of_factors}") """
 
 
 #GCF or greatest common factor caluclator challenge
+
+
+#DON"T USE THIS CODE. DOESN"T WORK. Use as reference for new code
+
 
 """ factor = 2
 factor_list = [1]
@@ -95,8 +99,11 @@ first_number = int(first_number)
 second_number = int(second_number)
 
 for i in range(first_number + second_number):
-    if (first_number % factor) ==0 and (second_number % factor) ==0:
+    if (first_number % factor ==0) and (second_number % factor ==0):
         new_factor_list = [factor]
         factor_list[0] = (new_factor_list)
-        factor = factor + 1 """
+        factor = factor + 1
+print(f"THE GREATEST COMMON FACTOR OF {first_number} AND {second_number} IS {factor_list}") """
+
+#DON"T USE THIS CODE. DOESN"T WORK. Use as reference for new code
         
