@@ -88,10 +88,8 @@ print(f"THE FACTORS OF {number} ARE {list_of_factors}") """
 #GCF or greatest common factor caluclator challenge
 
 
-#DON"T USE THIS CODE. DOESN"T WORK. Use as reference for new code or figure out problem
 
-
-""" factor = 2
+factor = 1
 factor_list = [1]
 first_number = input("WRITE ONE NUMBER")
 second_number = input("WRITE ANOTHER NUMBER")
@@ -100,10 +98,8 @@ second_number = int(second_number)
 
 for i in range(first_number + second_number):
     if (first_number % factor ==0) and (second_number % factor ==0):
-        new_factor_list = [factor]
-        factor_list[0] = (new_factor_list)
-        factor = factor + 1
-print(f"THE GREATEST COMMON FACTOR OF {first_number} AND {second_number} IS {factor_list}") """
-
-#DON"T USE THIS CODE. DOESN"T WORK. Use as reference for new code or figure out problem
+            new_factor_list = [factor]
+            factor_list[0] = (new_factor_list)
+    factor = factor + 1
+print(f"THE GREATEST COMMON FACTOR OF {first_number} AND {second_number} IS {factor_list}")
         
