@@ -98,7 +98,7 @@ second_number = int(second_number)
 
 for i in range(first_number + second_number):
     if (first_number % factor ==0) and (second_number % factor ==0):
-            new_factor_list = [factor]
+            new_factor_list = factor
             factor_list[0] = (new_factor_list)
     factor = factor + 1
 print(f"THE GREATEST COMMON FACTOR OF {first_number} AND {second_number} IS {factor_list}")
